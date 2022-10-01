@@ -1,0 +1,18 @@
+<svg>
+  <text id="time" fill="fb-blue" x="50%" y="50%" 
+    font-size="60" font-family="System-Regular" 
+    text-anchor="middle">XX:XX:XXxx
+  </text>
+  <g x="50%" y="80%">
+    <text id="date" fill="fb-light-gray" x="50%" y="80%" 
+      font-size="50" font-family="System-Regular" 
+      text-anchor="middle">xx 99
+    </text>
+    <g x="50" y="50">
+      <text id="dayOfTheWeek" fill="fb-light-gray" x="50%" y="95%" 
+        font-size="50" font-family="System-Regular" 
+        text-anchor="middle">xxx
+      </text>
+    </g>
+  </g>
+</svg>
