@@ -18,9 +18,10 @@ export class DateDisplay {
 
         const currDate = new Date();
         const day = currDate.getDate();
+        const tidyDay = (day) => day < 10 ? `0${day}` : day;
         const month = currDate.getMonth();
         const tidyMonth = (month) => month < 10 ? `0${month}` : month;
-        const date = `${day}.${tidyMonth(month + 1)}`;
+        const date = `${tidyDay(day)}.${tidyMonth(month + 1)}`;
         this.dateCallback(date);
     }
 
