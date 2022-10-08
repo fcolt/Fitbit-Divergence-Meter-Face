@@ -1,4 +1,6 @@
 <svg>
+  <image id="background" href="Background/background300x300.png" x="0" y="0" width="100%" height="100%" class="background" />
+
   <svg id="divergence_meter">
     <image id="nixie0" href="Nixie tubes/1.png" x="0" y="55" width="37" height="107"/>
     <image id="nixie1" href="Nixie tubes/dot.png" x="38" y="55" width="37" height="107"/>
@@ -9,6 +11,21 @@
     <image id="nixie6" href="" x="228" y="55" width="37" height="107"/>
     <image id="nixie7" href="" x="266" y="55" width="37" height="107"/>
   </svg>
+
+  <svg id="date">
+    <image id="dayNixie0" href="" x="80" y="175" width="28" height="80"/>
+    <image id="dayNixie1" href="" x="108" y="175" width="28" height="80"/>
+    <image id="dotNixie" href="" x="136" y="175" width="28" height="80"/>
+    <image id="monthNixie1" href="" x="164" y="175" width="28" height="80"/>
+    <image id="monthNixie2" href="" x="192" y="175" width="28" height="80"/>
+  </svg>
+
+  <svg id="dayOfTheWeek">
+    <image x="92" y="225" width="39" height="107" href="" />
+    <image x="131" y="225" width="39" height="107" href="" />
+    <image x="170" y="225" width="39" height="107" href="" />
+  </svg>
+
   <!-- <g x="50%" y="80%">
     <text id="date" fill="fb-light-gray" x="50%" y="80%" 
       font-size="50" font-family="System-Regular" 
