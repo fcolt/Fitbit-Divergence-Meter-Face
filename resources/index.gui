@@ -1,9 +1,15 @@
 <svg>
-  <text id="time" fill="fb-blue" x="50%" y="50%" 
-    font-size="60" font-family="System-Regular" 
-    text-anchor="middle">XX:XX:XXxx
-  </text>
-  <g x="50%" y="80%">
+  <svg id="divergence_meter">
+    <image id="nixie0" href="Nixie tubes/1.png" x="0" y="55" width="37" height="107"/>
+    <image id="nixie1" href="Nixie tubes/dot.png" x="38" y="55" width="37" height="107"/>
+    <image id="nixie2" href="" x="76" y="55" width="37" height="107"/>
+    <image id="nixie3" href="" x="114" y="55" width="37" height="107"/>
+    <image id="nixie4" href="" x="152" y="55" width="37" height="107"/>
+    <image id="nixie5" href="" x="190" y="55" width="37" height="107"/>
+    <image id="nixie6" href="" x="228" y="55" width="37" height="107"/>
+    <image id="nixie7" href="" x="266" y="55" width="37" height="107"/>
+  </svg>
+  <!-- <g x="50%" y="80%">
     <text id="date" fill="fb-light-gray" x="50%" y="80%" 
       font-size="50" font-family="System-Regular" 
       text-anchor="middle">xx 99
@@ -14,5 +20,5 @@
         text-anchor="middle">xxx
       </text>
     </g>
-  </g>
+  </g> -->
 </svg>
