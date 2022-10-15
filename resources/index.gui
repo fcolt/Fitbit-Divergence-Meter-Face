@@ -4,38 +4,25 @@
   <svg id="divergence_meter">
     <image id="nixie0" href="Nixie tubes/1.png" x="0" y="55" width="37" height="107"/>
     <image id="nixie1" href="Nixie tubes/dot.png" x="38" y="55" width="37" height="107"/>
-    <image id="nixie2" href="" x="76" y="55" width="37" height="107"/>
-    <image id="nixie3" href="" x="114" y="55" width="37" height="107"/>
-    <image id="nixie4" href="" x="152" y="55" width="37" height="107"/>
-    <image id="nixie5" href="" x="190" y="55" width="37" height="107"/>
-    <image id="nixie6" href="" x="228" y="55" width="37" height="107"/>
-    <image id="nixie7" href="" x="266" y="55" width="37" height="107"/>
+    <image id="nixie2" x="76" y="55" width="37" height="107"/>
+    <image id="nixie3" x="114" y="55" width="37" height="107"/>
+    <image id="nixie4" x="152" y="55" width="37" height="107"/>
+    <image id="nixie5" x="190" y="55" width="37" height="107"/>
+    <image id="nixie6" x="228" y="55" width="37" height="107"/>
+    <image id="nixie7" x="266" y="55" width="37" height="107"/>
   </svg>
 
   <svg id="date">
-    <image id="dayNixie0" href="" x="80" y="175" width="28" height="80"/>
-    <image id="dayNixie1" href="" x="108" y="175" width="28" height="80"/>
-    <image id="dotNixie" href="" x="136" y="175" width="28" height="80"/>
-    <image id="monthNixie1" href="" x="164" y="175" width="28" height="80"/>
-    <image id="monthNixie2" href="" x="192" y="175" width="28" height="80"/>
+    <image id="dayNixie0" x="80" y="175" width="28" height="80"/>
+    <image id="dayNixie1" x="108" y="175" width="28" height="80"/>
+    <image id="dotNixie" x="136" y="175" width="28" height="80"/>
+    <image id="monthNixie1" x="164" y="175" width="28" height="80"/>
+    <image id="monthNixie2" x="192" y="175" width="28" height="80"/>
   </svg>
 
   <svg id="dayOfTheWeek">
-    <image x="92" y="225" width="39" height="107" href="" />
-    <image x="131" y="225" width="39" height="107" href="" />
-    <image x="170" y="225" width="39" height="107" href="" />
+    <image x="105" y="240" width="39" height="75" />
+    <image x="135" y="240" width="39" height="75" />
+    <image x="165" y="240" width="39" height="75"  />
   </svg>
-
-  <!-- <g x="50%" y="80%">
-    <text id="date" fill="fb-light-gray" x="50%" y="80%" 
-      font-size="50" font-family="System-Regular" 
-      text-anchor="middle">xx 99
-    </text>
-    <g x="50" y="50">
-      <text id="dayOfTheWeek" fill="fb-light-gray" x="50%" y="95%" 
-        font-size="50" font-family="System-Regular" 
-        text-anchor="middle">xxx
-      </text>
-    </g>
-  </g> -->
 </svg>
